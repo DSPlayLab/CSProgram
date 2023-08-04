@@ -33,6 +33,10 @@ namespace DSPlayCS
                 반갑습니다.";
             Console.WriteLine(multi);
 
+            //문자열 보간법에 사용되는 변수 값은 모두 문자열로 처리됨
+            int num = 3;
+            string result = "홀수";
+            Console.WriteLine($"{num}은 {result}입니다.");
 
 
             //Console.Write("줄 바꿈 없음");
