@@ -15,6 +15,7 @@ namespace DSPlayCS
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World");
+            Console.WriteLine("Hello World2");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
