@@ -47,7 +47,7 @@ namespace DSPlayCS
             Console.WriteLine("Message : " + message); //더하기 연산자
             Console.WriteLine($"Message : {message}"); //문자열 보간법
 
-            Console.ReadLine();
+            Console.ReadLine(); //입력받은 데이터는 문자열
             Console.WriteLine(Console.ReadLine());
 
             Console.WriteLine("이름을 입력하세요 =>");
@@ -56,9 +56,9 @@ namespace DSPlayCS
 
             int x = Console.Read(); //콘솔에서 문자 하나를 입력한 후
             Console.WriteLine(x); //A를 입력했다면 A에 해당하는 정수 값 65 출력
-            Console.WriteLine(Convert.ToChar(x));  //유니코드 문자 출력
+                                  // Console.WriteLine(Convert.ToChar(x));  //유니코드 문자 출력
 
-
+            Console.WriteLine(Convert.ToString(5, 2).PadLeft(4, '0')); //이진수 다루기
 
             //Console.Write("줄 바꿈 없음");
             //Console.WriteLine("줄 바꿈 포함");
