@@ -44,8 +44,19 @@ namespace DSPlayCS
 
             string message = "string Interpolation";
             Console.WriteLine("Message : {0}", message); //매서드 기본 제공
-            Console.WriteLine("Message :" + message); //더하기 연산자
+            Console.WriteLine("Message : " + message); //더하기 연산자
             Console.WriteLine($"Message : {message}"); //문자열 보간법
+
+            Console.ReadLine();
+            Console.WriteLine(Console.ReadLine());
+
+            Console.WriteLine("이름을 입력하세요 =>");
+            string name = Console.ReadLine();
+            Console.WriteLine($"{name}");
+
+            int x = Console.Read(); //콘솔에서 문자 하나를 입력한 후
+            Console.WriteLine(x); //A를 입력했다면 A에 해당하는 정수 값 65 출력
+            Console.WriteLine(Convert.ToChar(x));  //유니코드 문자 출력
 
 
 
