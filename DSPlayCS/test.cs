@@ -42,6 +42,12 @@ namespace DSPlayCS
             string msg = string.Format("{0}님, {1}", "백승수", "안녕하세요");
             Console.WriteLine(msg);
 
+            string message = "string Interpolation";
+            Console.WriteLine("Message : {0}", message); //매서드 기본 제공
+            Console.WriteLine("Message :" + message); //더하기 연산자
+            Console.WriteLine($"Message : {message}"); //문자열 보간법
+
+
 
             //Console.Write("줄 바꿈 없음");
             //Console.WriteLine("줄 바꿈 포함");
