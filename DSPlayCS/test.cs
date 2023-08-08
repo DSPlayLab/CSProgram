@@ -59,6 +59,20 @@ namespace DSPlayCS
                                   // Console.WriteLine(Convert.ToChar(x));  //유니코드 문자 출력
 
             Console.WriteLine(Convert.ToString(5, 2).PadLeft(4, '0')); //이진수 다루기
+            int z = default; // 변수의 데이터 형식 초기화
+            int value = 0;
+            value = 8;
+            value = +value;
+            Console.WriteLine(value);
+
+            string result = (number%2 == 0) ? "짝수" : "홀수";
+
+            int score = 60;
+            if(score >=60)
+            {
+                Console.WriteLine("합격");
+            }
+
 
             //Console.Write("줄 바꿈 없음");
             //Console.WriteLine("줄 바꿈 포함");
