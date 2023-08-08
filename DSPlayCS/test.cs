@@ -67,12 +67,40 @@ namespace DSPlayCS
 
             string result = (number%2 == 0) ? "짝수" : "홀수";
 
+
             int score = 60;
             if(score >=60)
             {
                 Console.WriteLine("합격");
             }
 
+
+            int s =2;
+            switch (s)
+	{
+                case 1:
+                    Console.WriteLine("1 입니다.");
+                    break;
+                case 2:
+                    Console.WriteLine("2 입니다.");
+                    break;
+	}
+
+            Console.WriteLine("정수를 입력하세요");
+            int answer = Convert.ToInt32(Console.ReadLine());
+
+            switch (answer)
+	{
+                case 1:
+                    Console.WriteLine("1을 선택했습니다.");
+                    break;
+               case 2:
+                   Console.WriteLine("2를 선택했습니다.");
+                    break;
+		        default:
+                    Console.WriteLine("그냥 찍으셨군요");
+                    break;
+	}
 
             //Console.Write("줄 바꿈 없음");
             //Console.WriteLine("줄 바꿈 포함");
